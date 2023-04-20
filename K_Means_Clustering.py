@@ -81,7 +81,7 @@ TourismOutbound = st.number_input("Enter Tourism Outbound")
 
 
 
-loaded_model = load(open("C:\\Users\\admin\\Desktop\\Clustering Project\\final_model1.sav", 'rb'))
+loaded_model = load(open("final_model1.sav", 'rb'))
 
 list1 = [Birthrate,TaxPercentage,Co2emissions,EnergyUsage,GDP,HealthExpGDP,HealthExpCapita,InfantMortalityRate, InternetUsage,LifeExpectancyFemale,LifeExpectancymale,MobilePhoneUsage,Population0to14,Population15to64,Population65plus,PopulationTotal,PopulationUrban,TourismInbound,TourismOutbound]
 import numpy as np
